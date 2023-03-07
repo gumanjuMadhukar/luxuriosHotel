@@ -1,0 +1,238 @@
+/* home screen */
+.container-front {
+  position: relative;
+  text-align: center;
+  color: white;
+  /* From https://css.glass */
+  background: rgba(9, 8, 8, 0.49);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+.container-front .home-image {
+  /* Full height */
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  top: 149px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-front .text-left {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+  /* Luxury */
+  /* Hotels */
+  /* front-description */
+}
+.container-front .text-left .home-desc1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+.container-front .text-left .home-desc2 {
+  margin-bottom: -13px;
+  font-size: 154px;
+  line-height: 108px;
+  letter-spacing: 0.07em;
+}
+.container-front .text-left .home-desc3 {
+  margin-top: 0px;
+  font-size: 60px;
+  line-height: 81px;
+  letter-spacing: 0.4em;
+}
+.container-front .text-left .home-desc4 {
+  margin-top: -30px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 500px;
+  letter-spacing: 0.1em;
+}
+
+/* Top left text */
+.btn-buttom {
+  position: absolute;
+  justify-content: center;
+  top: 40rem;
+  left: 50%;
+  right: 50%;
+}
+
+.scroll {
+  justify-content: center;
+}
+
+.booknow-btn {
+  padding: 5px 20px;
+  background-color: #e0b973;
+  border-radius: 2px;
+  border-color: #e0b973;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #fff;
+}
+
+/* welcome to */
+.content {
+  position: static;
+  padding: 2rem;
+  text-align: center;
+  left: 22.5%;
+  right: 22.55%;
+  top: 35.86%;
+  bottom: 62.78%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #14274a;
+}
+
+.card {
+  height: 80%;
+  width: 90%;
+  padding: px;
+  margin: 5rem;
+  position: static;
+  left: 10.42%;
+  right: 10%;
+  top: 46.41%;
+  bottom: 48.66%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 40px;
+  /* or 160% */
+  color: #14274a;
+  border: #fff;
+  border-left: 3px solid #000;
+}
+
+.card-body {
+  position: static;
+  padding: 3rem;
+  left: 10.42%;
+  right: 61.35%;
+  top: 43.42%;
+  bottom: 45.79%;
+}
+
+.card-title {
+  left: 10.42%;
+  right: 56.93%;
+  top: 60.41%;
+  bottom: 34.6%;
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  color: #14274a;
+}
+
+.card-text {
+  left: 10.42%;
+  right: 62.34%;
+  top: 65.22%;
+  bottom: 28.62%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  /* or 160% */
+  color: #14274a;
+}
+
+.card-img {
+  height: 80%;
+  width: 80%;
+  position: static;
+  left: 44.53%;
+  right: 10.36%;
+  top: 40.09%;
+  bottom: 42.06%;
+  background: rgba(20, 39, 74, 0.2);
+}
+
+.btn-explore {
+  background-color: #e0b973;
+  color: #fff;
+  border: none;
+}
+
+.btn-explore:hover {
+  background-color: #e0b973;
+}
+
+.testimonials {
+  position: static;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 5px;
+  text-align: center;
+  left: 42.05%;
+  right: 41.9%;
+  top: 78.63%;
+  bottom: 19.3%;
+  font-family: "Adobe Garamond Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: #14274a;
+}
+
+.carousel-inner {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.carousel-description {
+  margin-bottom: 0%;
+  left: 29.32%;
+  right: 29.22%;
+  top: 81.44%;
+  bottom: 17.5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #14274a;
+}
+
+.carousel-writer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #14274a;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #e9b046;
+  height: 2rem;
+  width: 2.5rem;
+}
+
+.carousel-btn:hover {
+  background-color: #e0b973;
+}/*# sourceMappingURL=home.css.map */

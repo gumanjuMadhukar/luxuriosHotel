@@ -1,0 +1,90 @@
+.footer {
+  bottom: 0;
+  padding-top: 5rem;
+  padding: 2rem;
+  background-color: #14274a;
+  color: #fff;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.footer-luxury {
+  font-family: "Abril Fatface";
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0.15em;
+  margin-bottom: 0px;
+}
+
+.footer-hotel {
+  font-family: "Abril Fatface";
+  margin-bottom: 1rem;
+  margin-top: -5px;
+  margin-left: 9%;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 0.6em;
+}
+
+.footer-hotel-address {
+  font-family: "Montserrat";
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2px;
+  color: #ffffff;
+}
+
+.footer-link {
+  padding-left: 5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #f7f7f7;
+}
+
+.footer-socialMedia ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #f7f7f7;
+}
+
+.footer-logo {
+  padding-right: 1rem;
+}
+
+.subscribe-div {
+  border-radius: 3px;
+  border-color: #e0b973;
+}
+
+.subscribe-form {
+  border: 2px solid #e0b973;
+  background: transparent;
+}
+
+.subscribe-btn {
+  background-color: #e0b973;
+  border-radius: 2px;
+  border-color: #e0b973;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #14274a;
+}/*# sourceMappingURL=footer.css.map */

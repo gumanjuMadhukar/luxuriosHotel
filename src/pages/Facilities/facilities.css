@@ -1,0 +1,482 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  /* background-image:url(./bg_2.jpeg);  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.navbar {
+  height: 7rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+.navbar-items {
+  justify-content: end;
+}
+
+.logo {
+  margin-left: 150px;
+  height: 110px;
+}
+
+nav ul {
+  line-height: 40px;
+  list-style: none;
+  background: transparent;
+  overflow: hidden;
+  color: rgb(10, 10, 10);
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 0.5s;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  transform: matrix();
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  transform: matrix();
+  color: #fff;
+  font-size: 20px;
+}
+
+/* facility screen */
+.container-front {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background: url(../images/bg_front.jpeg) no-repeat 80% 50%;
+  background-size: 100%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+/* Top right text */
+.text-left {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+}
+
+.btn-buttom {
+  position: absolute;
+  top: 40rem;
+  left: 50%;
+  right: 50%;
+}
+
+.booknow-btn {
+  padding: 5px 20px;
+  background-color: #e0b973;
+  border-radius: 2px;
+  border-color: #e0b973;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #fff;
+  /* identical to box height */
+  color: #fff;
+}
+
+/* welcome to */
+.home-desc1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+/* Luxury */
+.home-desc2 {
+  margin-bottom: 0px;
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 154px;
+  line-height: 108px;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+}
+
+/* Hotels */
+.home-desc3 {
+  margin-top: 0px;
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 81px;
+  letter-spacing: 0.4em;
+  color: #ffffff;
+}
+
+/* front-description */
+.home-desc4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  width: 500px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+/* 
+.logo {
+  height: 2rem;
+  position: static;
+  padding-top: 0px;
+  float: left;
+  margin: 16px 46px;
+  color: #e0b983;
+  letter-spacing: 5px;
+
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  margin-top: 0%;
+
+}
+
+nav ul {
+  line-height:20px;
+  list-style: none;
+  background: transparent;
+  overflow: hidden;
+  color: rgb(10, 10, 10);
+  padding: 3rem;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+
+
+nav ul li {
+  display: inline-flex;
+ justify-content:space-around;
+}
+
+nav ul li a {
+  text-decoration: none;
+  transform: matrix();
+  color: #fff;
+  font-size: 20px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+} */
+.content {
+  font-size: 45px;
+  text-align: center;
+}
+
+.facilities {
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 81px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #14274A;
+}
+
+.facilities-images {
+  height: 1550px;
+  width: 960px;
+  margin: auto;
+}
+
+.facilities-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #14274A;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+
+/* .container {
+  margin-bottom: auto;
+  position: static;
+  left: 7.89%;
+  right: 10.36%;
+  top: 40.09%;
+  bottom: 42.06%;
+} */
+.card {
+  height: 90%;
+  width: 90%;
+  padding: 2px;
+  margin: auto;
+  position: static;
+  left: 10.42%;
+  right: 10%;
+  top: 46.41%;
+  bottom: 48.66%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 40px;
+  /* or 160% */
+  color: #14274a;
+  border: none !important;
+}
+
+.card-body {
+  position: static;
+  left: 10.42%;
+  right: 61.35%;
+  top: 43.42%;
+  bottom: 45.79%;
+}
+
+.card-img {
+  height: 80%;
+  width: 80%;
+  position: static;
+  left: 44.53%;
+  right: 10.36%;
+  top: 40.09%;
+  bottom: 42.06%;
+  background: rgba(20, 39, 74, 0.2);
+}
+
+.btn-primary {
+  background: #E0B973;
+}
+
+.testimonials {
+  position: static;
+  margin: 15px;
+  margin-bottom: 0px;
+  padding: 5px;
+  text-align: center;
+  left: 42.05%;
+  right: 41.9%;
+  top: 78.63%;
+  bottom: 19.3%;
+  font-family: "Adobe Garamond Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: #14274a;
+}
+
+.carousel-inner {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.carousel-description {
+  margin-bottom: 0%;
+  left: 29.32%;
+  right: 29.22%;
+  top: 81.44%;
+  bottom: 17.5%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #14274a;
+}
+
+.carousel-writer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #14274a;
+}
+
+.carousel-btn {
+  background-color: #e0b973;
+  height: 2rem;
+  width: 2.5rem;
+}
+
+.carousel-btn:hover {
+  background-color: #e0b973;
+}
+
+footer {
+  padding-top: 5rem;
+  padding: 2rem;
+  background-color: #14274a;
+  color: #fff;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.footer-luxury {
+  font-family: "Abril Fatface";
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0.15em;
+  margin-bottom: 0px;
+}
+
+.footer-hotel {
+  font-family: "Abril Fatface";
+  margin-bottom: 1rem;
+  margin-top: -5px;
+  margin-left: 9%;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  letter-spacing: 0.6em;
+}
+
+.footer-hotel-address {
+  font-family: "Montserrat";
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2px;
+  color: #ffffff;
+}
+
+.footer-link {
+  padding-left: 5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #f7f7f7;
+}
+
+.footer-socialMedia ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #f7f7f7;
+}
+
+.footer-logo {
+  padding-right: 1rem;
+}
+
+.subscribe-div {
+  border-radius: 3px;
+  border-color: #e0b973;
+}
+
+.subscribe-form {
+  border: 2px solid #e0b973;
+  background: transparent;
+}
+
+.subscribe-btn {
+  background-color: #e0b973;
+  border-radius: 2px;
+  border-color: #e0b973;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #14274a;
+}
+
+.union {
+  background-color: #14274A;
+}
+
+@media (max-width: 786px) {
+  .logo {
+    position: static;
+    top: 0;
+    margin-top: 16px;
+  }
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
+  nav.black ul {
+    background: #000;
+  }
+  .showing {
+    max-height: 34em;
+  }
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+  .menu-icon {
+    display: block;
+  }
+}/*# sourceMappingURL=facilities.css.map */
